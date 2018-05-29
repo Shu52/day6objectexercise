@@ -72,8 +72,9 @@ console.log(changeVolunteerInfo(volunteers,"name","Arraya Stark"));
 
 // Use document.createElement() to build an <article> element representing Elizabeth. The id property of the element should be her congressional district, and its content should be her platform data. Once the element has been created, insert it into the DOM.
 // var element = document.createElement(tagName[, options]);
-let article=document.createElement("article");
+let article=document.createElement("ARTICLE");
 article.setAttribute("id","candidate.district");
+document.write("<article> Hello world<article>")
 document.getElementById("candidate.district").appendChild("Hello");
 
 // article.appendChild("i am an article")
